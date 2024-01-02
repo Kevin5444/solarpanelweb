@@ -273,13 +273,21 @@ a{
 }
 
 
+footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fc6042;
+  padding-top: 40px;
+}
+
+
 .footer{
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 200px;
-  background-color: #fc6042;
-  height: 300px;
 }
 
 .footer__location{
@@ -308,10 +316,10 @@ a{
 }
 
 .copyright{
-  background-color: #fc6042;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-top: 30px;
 }
 
 .copyright p{
@@ -343,7 +351,7 @@ a{
   margin-top: 50px;
   text-align: center;
 }
-.aboutus__title h5{
+.aboutus__title p{
   color: white;
   font-size: 15px;
   margin-top: 30px;
@@ -643,6 +651,10 @@ a{
   }
   .footer__followus{
     gap: 20px;
+  }
+
+  .copyright{
+    padding-top: 5px;
   }
 
   /* about us */
