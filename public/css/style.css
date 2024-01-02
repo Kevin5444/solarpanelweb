@@ -272,25 +272,23 @@ a{
   border-radius: 8px;
 }
 
-
-footer{
+.footer{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 20px;
+  gap: 40px;
   background-color: #fc6042;
-  padding-top: 40px;
-  height: 300px;
-  
+  padding: 50px;
+
 }
 
 
-.footer{
+.footer__info{
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 200px;
+  gap: 250px;
 }
 
 .footer__location{
@@ -298,15 +296,15 @@ footer{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 40px;
+  gap: 30px;
   color: white;
 }
-.footer__contacts{
+.footer__contact{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 40px;
+  gap: 30px;
   color: white;
 }
 .footer__followus{
@@ -314,21 +312,13 @@ footer{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 40px;
+  gap: 30px;
   color: white;
 }
 
-.copyright{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-top: 5px;
-}
 
-.copyright p{
+.footer__copyright{
   color: white;
-  font-size: 15px;
-  text-align: center;
 }
 
 
@@ -640,24 +630,22 @@ footer{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 5px;
-    width: 100%;
+    gap: 50px;
+    padding-bottom: 80px;
   }
 
-  .footer__location{
-    gap: 20px;
-  }
-  .footer__concats{
-    gap: 20px;
-  }
-  .footer__followus{
-    gap: 20px;
+  .footer__info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
   }
 
-  .copyright{
-    padding-top: 5px;
+  .footer__copyright{
+    text-align: center;
   }
-
+  
   /* about us */
 
   .aboutus__title h3{
