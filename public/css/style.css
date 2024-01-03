@@ -9,6 +9,8 @@
 
 body{
   font-family: inherit;
+  position: relative;
+  min-height: 100vh;
 }
 
 
@@ -280,6 +282,8 @@ a{
   gap: 30px;
   background-color: #fc6042;
   padding: 50px;
+  position: absolute;
+  width: 100%;
 }
 
 
