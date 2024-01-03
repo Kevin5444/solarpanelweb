@@ -606,6 +606,10 @@ a{
     justify-content: center;
   }
 
+  .products{
+    margin-bottom: 185px;
+  }
+
   .products__title h4{
     font-size: 14px;
   }
